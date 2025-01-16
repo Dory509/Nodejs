@@ -36,7 +36,7 @@ const userQuestions = [
       type:"list",
       message:"Select Project License",
       name:"license",
-      choices:["MIT","ISC","APACHE","GPL","The Unlicensed","BSD"]
+      choices:["MIT","APACHE","GPL","The Unlicensed","BSL"]
     },
     {
       type:"input",
