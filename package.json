@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Nodejs app to generate readme",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Nodejs",
@@ -16,6 +16,7 @@
   "author": "Dory",
   "license": "ISC",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^12.3.2"
   }
 }
